@@ -10,7 +10,6 @@ header{
     height: 56vh;
 }
 nav {
-    border: solid yellow;
     display: flex;
     justify-content: center;
     height: 8vh;
@@ -21,13 +20,12 @@ ul {
     width: 30vw;
     justify-content: space-around;
     list-style: none;
-    border: solid red;
 }
-li { color: white;
-    font-size: 25px;
+li { 
+    color: white;
+    font-size: 20px;
 }
 .title {
-    border: solid orange;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,28 +38,29 @@ h1 {
     font-size: 40px;
 }
 .nav2 ul {
-    border: solid purple;
     width: 52vw;
 }
 main {
     background-color: #FFA185;
     width: 100%;
-    height: 105vh;
+    height: 130vh;
 }
 .h2 {
-    border: solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 220px;
     height: 20vh;
+    width: 80%;
 }
 h2 {
-    color: white;
-   display: flex;
-   justify-content:last baseline;
+    color: #ffff; 
+    font-size: 30px;
 }
-p{
-    border: solid mediumorchid;
+p {
+    font-size: 20px;
 }
 .fig {
-    border: solid green;
     display: flex;
     height: 90vh;
     flex-wrap: wrap;
@@ -71,4 +70,28 @@ p{
 img {
     width: 40vw;
     height: 40vh;
+}
+.VM {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+footer{
+    background-color: #129799;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer section {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+footer img {
+    width: 30px;
+    height: 30px;
 }
